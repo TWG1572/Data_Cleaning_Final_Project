@@ -5,7 +5,7 @@ The final objective of the script run_analysis.R is to tidy the data. In order t
 All the data used in the program comes from the zip file [Project Source Data](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip)
 
 ## Output
-The program will generate a csv file named Tidy-Data.csv. It will contain the result of the last task.
+The program will generate a csv file named project.txt. It will contain the result of the last task.
 
 ## Script 
 ### Preparation
