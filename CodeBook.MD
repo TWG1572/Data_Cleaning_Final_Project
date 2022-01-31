@@ -44,12 +44,12 @@ The program will generate a text file named project.txt. It will contain the res
       * Rows: 2947
       * Columns:1
    1. features 
-      * Source: \train\features.txt"
+      * Source: \features.txt"
       * Description: The features selected for this database come from the accelerometer and gyroscope 3-axial raw signals tAcc-XYZ and tGyro-XYZ.
       * Rows: 561
       * Columns:2
    1. activity
-      * Source: \train\activity_labels.txt"
+      * Source: \activity_labels.txt"
       * Description: List of activities performed (Code and Label)
       * Rows: 6
       * Columns:2
