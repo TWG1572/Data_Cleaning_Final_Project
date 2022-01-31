@@ -58,21 +58,21 @@ The program will generate a text file named project.txt. It will contain the res
 Merges the training and the test sets to create one data set.
    1. Combine the columns from all **train** data table (x, y and subject) using the cbind function
    2. Combine the columns from all **test** data table (x, y and subject) using the cbind function
-   3. Merge the train and test data tables in a resulting data table called FullSet
+   3. Merge the train and test data tables in a resulting data table
 
 ### Step 2
 Creates a data set with only the subject, activity code, and mean/std data
-   1. Change the column names to: subject, features data table column names
+   1. Change the column names in the date table from the preceeding step to: subject, features data table column names
    2. Extract only the measurements on the mean and standard deviation for each row
    3. Creates a dataset with only the subject, activity code, and mean/std data
 
 ### Step 3
 Creates dataset with activity descriptions added
-   1.  Merges dataset with descriptive activity names to name the activities in the data set
+   1.  Merges dataset from previous step with descriptive activity names to name the activities in the data set
    2.  Removes the activity code
 
 ### Step 4
-Change the column names according to the following rules:
+Change the column names in the dataset from the previous step according to the following rules:
    1.  *Acc* to *Accelerometer*
    2.  *Gyro* to *Gyroscope*
    3.  *BodyBody* to *Body*
