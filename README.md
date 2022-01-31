@@ -25,7 +25,5 @@ The R script run_analysis.R can be used to create the data set. It retrieves the
   7. Creates a tidy dataset that consists of the average (mean) value of each
      variable for each subject and activity pair.
 
-## Additional comments
-Packages:
-data.table
+## Packages:
 dplyr
