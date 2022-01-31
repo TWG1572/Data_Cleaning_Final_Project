@@ -2,32 +2,30 @@
 Data Cleaning Final Project
 Final project for the data cleaning course with R at Coursera
 
+## Content
+- The **run_analysis.R** script that performs all the analysis
+- This **README.md** with all the instructions to run and explanations
+- The **CodeBook.md** with description of all the variables in the final tidy data set
+
+
 ## Objective
 Prepare a tidy data set from the Samsung Smartphone data that can be used for later analysis.
 
 ## Tasks required
 Create one R script called run_analysis.R that does the following.
 
-  1. Merges the training and the test sets to create one data set.
-  2. Extracts only the measurements on the mean and standard deviation for each measurement.
-  3. Uses descriptive activity names to name the activities in the data set
-  4. Appropriately labels the data set with descriptive variable names.
-  5. From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
-
-##Files
-README.md
-This file, where the project is explained and files used
-CodeBook.md
-The CodeBook describes the variables, the data files and the logic used in the script
-run_analysis.R
-The R script used to generate the final data set
-tidy_data.txt
-The final result of the project
+  1. Download the dataset if it does not already exist in the working directory
+  2. Load the activity and feature info
+  3. Loads both the training and test datasets, keeping only those columns which
+     reflect a mean or standard deviation
+  4. Loads the activity and subject data for each dataset, and merges those
+     columns with the dataset
+  5. Merges the two datasets
+  6. Converts the `activity` and `subject` columns into factors
+  7. Creates a tidy dataset that consists of the average (mean) value of each
+     variable for each subject and activity pair.
 
 ##Additional comments
-R version 4.0.0 (2020-04-24) -- "Arbor Day"
-Platform: x86_64-w64-mingw32/x64 (64-bit)
 Packages:
 data.table
-plyr (because of the function mapvalues)
 dplyr
