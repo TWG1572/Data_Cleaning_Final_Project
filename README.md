@@ -2,14 +2,14 @@
 Data Cleaning Final Project
 Final project for the data cleaning course with R at Coursera
 
-Objective
+## Objective
 Prepare tidy data that can be used for later analysis.
 
 the data used in the project represent data collected from the accelerometers from the Samsung Galaxy S smartphone. A full description is available at the site where the data was obtained: UCI
 
 The data for the projec is available here
 
-Tasks required
+## Tasks required
 Create one R script called run_analysis.R that does the following.
 
 Merges the training and the test sets to create one data set.
