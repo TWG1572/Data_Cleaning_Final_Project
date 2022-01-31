@@ -12,7 +12,7 @@ Final project for the data cleaning course with R at Coursera
 Prepare a tidy data set from the Samsung Smartphone data that can be used for later analysis.
 
 ## Tasks required
-Create one R script called run_analysis.R that does the following.
+The R script run_analysis.R can be used to create the data set. It retrieves the source data set and transforms it to produce the final data set by implementing the following steps:
 
   1. Download the dataset if it does not already exist in the working directory
   2. Load the activity and feature info
@@ -25,7 +25,7 @@ Create one R script called run_analysis.R that does the following.
   7. Creates a tidy dataset that consists of the average (mean) value of each
      variable for each subject and activity pair.
 
-##Additional comments
+## Additional comments
 Packages:
 data.table
 dplyr
